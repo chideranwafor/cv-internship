@@ -22,6 +22,7 @@ header h3 {
 
 header ul {
     font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif !important;
+    font-size: 1.2em;
 }
 
 .header-top {
@@ -73,4 +74,60 @@ footer a:hover {
     text-decoration: none;
     color: #F8F6F9;
     font-weight: bold;
+}
+
+@media (max-width: 991px) {
+    header h3 {
+        font-size: 1.7em;
+    }
+
+    header ul {
+        font-size: 0.7em;
+    }
+    
+    section h5 {
+        font-size: 1.7em !important;
+    }
+    
+    section ul,
+    section p,
+    section h6 {
+        font-size: 1.2em;
+    }
+    
+    .professional-summary p {
+        font-size: 1.2em;
+    }
+    
+    footer p,
+    footer a,
+    footer a:hover {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 576px) {
+    header h3 {
+        font-size: 1.2em;
+    }
+    
+    section h5 {
+        font-size: 1.2em !important;
+    }
+    
+    section ul,
+    section p,
+    section h6 {
+        font-size: 0.7em;
+    }
+    
+    .professional-summary p {
+        font-size: 0.7em;
+    }
+    
+    footer p,
+    footer a,
+    footer a:hover {
+        font-size: 0.7em;
+    }
 }
